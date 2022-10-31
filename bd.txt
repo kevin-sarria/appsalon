@@ -3,7 +3,7 @@
 
 CREATE DATABASE appsalon_mvc;
 
-CREATE TABLE usuarios( id INT(11) NOT NULL AUTO_INCREMENT, nombre VARCHAR(60), apellido VARCHAR(60), email VARCHAR(60), telefono VARCHAR(10), admin tinyint(1), confirmado tinyint(1), token VARCHAR(15) , PRIMARY KEY(id))
+CREATE TABLE usuarios( id INT(11) NOT NULL AUTO_INCREMENT, nombre VARCHAR(60), apellido VARCHAR(60), email VARCHAR(60), password VARCHAR(60) NOT NULL, telefono VARCHAR(10), admin tinyint(1), confirmado tinyint(1), token VARCHAR(15) , PRIMARY KEY(id))
 
 CREATE TABLE servicios( id INT(11) NOT NULL AUTO_INCREMENT, nombre VARCHAR(60), precio DECIMAL(6,2), PRIMARY KEY(id) );
 
