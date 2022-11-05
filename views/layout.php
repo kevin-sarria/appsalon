@@ -21,6 +21,9 @@
 
     </div>
 
+    <?php 
+        echo $script ?? '';
+    ?>
     
             
 </body>
