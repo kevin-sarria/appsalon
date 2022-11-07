@@ -1,2 +1,8 @@
+src
 vendor
 node_modules
+bd.txt
+gulpfile.js
+package.json
+package-lock.json
+.env
